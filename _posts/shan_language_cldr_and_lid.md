@@ -30,5 +30,5 @@ description: "Shan language in term of Unicode encoding, CLDR and Language Ident
 		- shn-TH for Shan language spoken in Thailand
 		- **because those are 2 countries mostly spoken in Shan**
 	- Unicode Language Identifier (ULI) is used for help identify the language used in a document or application
--
+
 - [To updating CLDR (Language/Script/Region Subtags)](https://cldr.unicode.org/development/updating-codes/update-languagescriptregion-subtags)
