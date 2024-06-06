@@ -6,11 +6,14 @@ link: "note/bash_script_command_line"
 description: "some useful bash script"
 ---
 
-- ffmpeg converter
-	```bash
-	 for f in /path/to/folder/*; do ffmpeg -i "$f" "${f%.*}.webp"; done
-	```
-- find and delete pattern
-	```bash
-	 find /path/to/folder -type f ! -name "*.webp" -delete
-	```
+ffmpeg converter
+
+ ```bash
+  for f in /path/to/folder/*; do ffmpeg -i "$f" "${f%.*}.webp"; done
+ ```
+
+find and delete pattern
+
+ ```bash
+  find /path/to/folder -type f ! -name "*.webp" -delete
+ ```

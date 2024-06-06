@@ -9,8 +9,8 @@ description: "how many Shan language dialect are there?"
 - [x] how many dialect do they have?
 - [x] dialect name list
 
-
 ## [Wikipedia](https://en.wikipedia.org/wiki/Shan_language#Dialects)
+
 The Shan dialects spoken in [Shan State](https://en.wikipedia.org/wiki/Shan_State "Shan State") can be divided into three groups, roughly coinciding with geographical and modern administrative boundaries, namely the northern, southern, and eastern dialects. Dialects differ to a certain extent in vocabulary and pronunciation, but are generally mutually intelligible.
 
 While the southern dialect has borrowed more [Burmese](https://en.wikipedia.org/wiki/Burmese_language "Burmese language") words, eastern Shan is somewhat closer to [Northern Thai language](https://en.wikipedia.org/wiki/Northern_Thai_language "Northern Thai language") and [Lao](https://en.wikipedia.org/wiki/Lao_language "Lao language") in vocabulary and pronunciation, and the northern so-called "[Chinese Shan](https://en.wikipedia.org/wiki/Tai_Nuea_language "Tai Nuea language")" is much influenced by the Yunnan-Chinese dialect.[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please_clarify "Wikipedia:Please clarify")_]
@@ -31,4 +31,3 @@ Prominent divergent dialects are considered separate languages, such as [Khün](
 ထွႆႈၵႂၢမ်းၸိူဝ်းၼႆႉပႅၵ်ႇပိူင်ႈၵၼ်ဢိတ်းဢွတ်းၸဵမ်သပ်းၵႂၢမ်းလႄႈသဵင်ဢွၵ်ႇ ၵူၺိးၵမ်ႈၼမ်တႄႉ ပွင်ႇၸႂ်ၵၼ်လႆႈလီလီယူႇ။
 
 ထွႆႈၵႂၢမ်းတႆးပွတ်းတႂ်ႈ ယိပ်းယိုမ်ထွႆႈၵႂၢမ်းမၢၼ်ႈ၊ ထွႆႈၵႂၢမ်းပွတ်းဢွၵ်ႇ ၸမ်ၵၼ်တင်းထႆးပွတ်းၼိူဝ် (northern Thai) လႄႈလၢဝ်း (Lao) တွၼ်ႈထွႆႈသပ်းလႄႈသဵင်ဢွၵ်ႇ၊ လႄႈတႆးပွတ်းတွၼ်ႈၼိူဝ်မၢင်ၽဝ်ႇႁွင်ႉတႆးၶႄႇ (Chinese Shan) ထွႆႈၵႂၢမ်းၵမ်ႈၼမ်လႆႈႁပ်ႉမႃးတီႈ ၶႄႇယူႇၼၢၼ်ႇ (Yunnan-Chinese)။
-

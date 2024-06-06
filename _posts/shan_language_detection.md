@@ -6,6 +6,8 @@ link: "note/shan_language_detection"
 description: "Predict if text is in Shan or not"
 ---
 
+### Using [Meta's fastext](https://fasttext.cc/) model
+
 ```python
 import fasttext
 from huggingface_hub import hf_hub_download

@@ -10,11 +10,13 @@ description: "Bypass windows password with Kali linux"
 - Restart the computer and boot Kali-Linux with bootable USB
 - Navigating to the Windows file system.
 - In the path C:\WINDOWS\system32\config there's contained a file name SAM
-- ```bash
+
+```bash
   sudo chntpw -l SAM
   // this command will list all the existing users on the computer
-  ```
-- ```bash
+```
+
+```bash
   sudo chntpw -u USERNAME SAM
   
   // this will enable an editing dialog with the following options
@@ -24,5 +26,6 @@ description: "Bypass windows password with Kali linux"
   // 4 — Add user to a group
   // 5 — Remove user from a group
   // q — Quit editing user, back to user select
-  ```
+```
+
 - Reboot.

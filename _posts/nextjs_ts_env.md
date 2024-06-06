@@ -6,11 +6,13 @@ link: "note/nextjs_ts_env"
 description: "How to config .env for NextJS typescript"
 ---
 
-In NextJS typescript I used env.local to test local environment but got warning ``Type 'string | undefined' is not assignable to type 'string'.``
+In NextJS typescript I used env.local to test local environment but got warning
+
+``Type 'string | undefined' is not assignable to type 'string'.``
 
 so here's to config type
 
-```JS
+```Typescript
   namespace NodeJS {
     interface ProcessEnv {
       NEXT_KEY1: string;
@@ -18,9 +20,10 @@ so here's to config type
     }
   }
 ```
-- then add ``env.d.ts`` to ``tsconfig.json``
 
-```JS
+then add ``env.d.ts`` to ``tsconfig.json``
+
+```Javascript
   {
     "compilerOptions": {
       // options
