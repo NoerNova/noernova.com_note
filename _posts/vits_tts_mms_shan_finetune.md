@@ -377,7 +377,7 @@ with torch.no_grad():
 waveform = output.waveform[0]
 ```
 
-[Sample Audio]("https://drive.google.com/file/d/1sEg1nGPXfUQRqMtx0bOx_jqgaLloI0uO/view?usp=sharing../assets/finetuned_output.wav")
+[Sample Audio](/assets/finetuned_output.wav)
 
 ## Conclusion
 
