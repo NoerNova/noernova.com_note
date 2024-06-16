@@ -41,7 +41,7 @@ From [coqui.ai](https://docs.coqui.ai/en/latest/what_makes_a_good_dataset.html) 
 We needed
 
 - 3-10 Sec per audio clip, Naturalness recordings.
-- 16000-22050 Sample-rate
+- 16000-22050 Sample-rate (MMS pretrained model used 16kHz)
 
 As a Low-Resource language like Shan, there are no ready-used datasets yet, we have to create a good one on our own.
 
@@ -80,7 +80,7 @@ pip install datasets huggingface_hub
 ```python
 from datasets import load_dataset, Audio
 
-dataset = load_dataset("audiofolder", data_dir="dataset_2")
+dataset = load_dataset("audiofolder", data_dir="<dataset-path>")
 dataset = dataset.cast_column("audio", Audio(sampling_rate=22050))
 ```
 
@@ -290,7 +290,7 @@ Now we need just a couple of process to finetune our model
   "num_train_epochs": 200,
   "gradient_accumulation_steps": 1,
   "gradient_checkpointing": false,
-  "per_device_train_batch_size": 32, // <-- increase this parameter if you have less VRAM
+  "per_device_train_batch_size": 32, // <-- decrease this parameter if you have less VRAM
   "learning_rate": 2e-5,
   "adam_beta1": 0.8,
   "adam_beta2": 0.99,
@@ -299,7 +299,7 @@ Now we need just a couple of process to finetune our model
 
   "do_eval": true,
   "eval_steps": 50,
-  "per_device_eval_batch_size": 32, // <-- increase this parameter if you have less VRAM
+  "per_device_eval_batch_size": 32, // <-- decrease this parameter if you have less VRAM
   "max_eval_samples": 25,
   "do_step_schedule_per_epoch": true,
 
