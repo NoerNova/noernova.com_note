@@ -267,32 +267,6 @@ tokenizer.save_pretrained(repo_name)
 
 A Wav2Vec2FeatureExtractor object requires the following parameters to be instantiated:
 
-- Contents
-- Introduction
-- Requirements
-- Prepare Dataset, dataset formatting
-- Notebook environment
-- Datasets
-  - Prepair datasets
-  - Load datasets
-  - Clean datasets
-- Tokenizer and Vocab extract
-  - Wav2Vec2CTCTokenizer
-- Feature Extractor
-  - Casting dataset to 16kHz format
-  - Preprocess datasets for training
-- Training
-  - Setup trainer
-  - Evaluate function
-  - Load model checkpoint
-  - Re-initialize all the adapter weights to make sure that only the adapter weights will be trained and that the rest of the model stays frozen
-  - Define all parameters related to training
-- Save model or push to hub
-- Inference
-  - Load test dataset or use audio file
-  - Transcribe
-- Conclusion
-
 ```python
 from transformers import Wav2Vec2FeatureExtractor
 
